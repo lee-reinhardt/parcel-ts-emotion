@@ -1,0 +1,29 @@
+{
+  "name": "parcel-ts-emotion",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.3.3",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/node": "^11.9.5",
+    "@types/react": "^16.8.4",
+    "@types/react-dom": "^16.8.2",
+    "babel-plugin-emotion": "^10.0.7",
+    "babel-plugin-jsx-pragmatic": "^1.0.2",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "parcel-bundler": "^1.11.0",
+    "typescript": "^3.3.3333"
+  }
+}
